@@ -1,0 +1,71 @@
+.login-container{
+   width:100%;
+   display: flex;
+   flex-direction: row;
+}
+.login-image{
+   height:100vh;
+   width: 50%;
+}
+.login-form-div{
+   width: 50%;
+   background-color: #fff;
+   padding: 10px;
+   
+}
+.already-member-text{
+   font-size:14px;
+   
+   font-family: roboto;
+   font-weight: 700;
+   text-align: right;
+}
+.sign-up-text{
+   font-size: 20px;
+   font-weight: bold;
+   font-family: roboto;
+   
+}
+.signup-form-container{
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 15vh;
+   /* margin-bottom: auto; */
+   height: 100vh;
+}
+.username-taken{
+   font-size: 13px;
+   color:red;
+   font-size: 900;
+
+}
+.sign-up-name{
+   font-size: 14px;
+   font-weight: 700;
+   font-family: roboto;
+   margin-top: 10px;
+}
+.create-button{
+   height: 40px;
+   width: 150px;
+   border-radius: 10px;
+   color:#fff;
+   background-color:red;
+   border-width: 0px;
+}
+.recaptha-text{
+   font-size: 12px;
+   font-weight: 500;
+   font-family: roboto;
+   margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+   .login-image{
+      display: none;
+   }
+   .login-form-div{
+      width: 100%;
+      background-color: #fff;
+      padding: 0px;}
+}

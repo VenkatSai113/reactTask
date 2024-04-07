@@ -1,0 +1,74 @@
+.dribbleCard{
+   height:100%;
+   width:100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 30px;
+}
+.dribble-heading{
+   font-family: roboto;
+   font-weight: bold;
+   color: black;
+   font-size: 26px;
+}
+.dribble-description{
+   font-family: roboto;
+   font-weight: normal;
+   color: black;
+   font-size: 13px;
+}
+.card-container{
+   width: 80%; 
+}
+.card-1{
+   width: 100%;
+   border: 1px solid gray;
+   border-radius: 3px;
+   
+   height: 300px;
+}
+.card-image{
+   width: 100%;
+   height: 170px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.designer-text{
+   font-size:14px;
+   font-weight: bold;
+   text-align: center;
+}
+.designer-description{
+   font-size:13px;
+   font-weight: normal;
+   text-align: center;
+}
+.anything-text{
+   text-align: center;
+   font-size: 13px;
+   font-weight: 800;
+   margin-top: 100px;
+}
+.create-button{
+   height: 40px;
+   width: 150px;
+   border-radius: 10px;
+   color:#fff;
+   background-color:red;
+   border-width: 0px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.card {
+   border: 1px solid #ccc;
+   padding: 10px;
+   margin: 10px;
+   cursor: pointer;
+ }
+ 
+ .active {
+   border: 2px solid red; /* Change this to whatever color you want for active border */
+ }
+ 

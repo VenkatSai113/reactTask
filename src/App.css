@@ -1,0 +1,11 @@
+.card-container{
+  width:300px;
+  background-color:whitesmoke;
+  border-radius: 5px;
+  border: 1px solid blue;
+}
+.main-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
