@@ -17,7 +17,7 @@ const DribbleCard=()=>{
   };
    return(
       <div className="dribbleCard">
-         <img src="https://w7.pngwing.com/pngs/479/261/png-transparent-design-community-dribbble-dribbbler-dribbble-logo-social-media-icon-thumbnail.png" style={{marginRight:'auto', width:'100px',marginLeft:'20px'}}/>
+         <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Dribbble3_colored_svg-512.png" style={{marginRight:'auto', width:'100px',marginLeft:'20px'}}/>
          <h3 className='dribble-heading'>What brings you to Dribbble?</h3>
          <p className='dribble-description'>Select the options that best describe you. Don't worry , you can explore other options later.</p>
          <div className='card-container'>
